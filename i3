@@ -1,0 +1,1 @@
+/home/admiral/.config/i3

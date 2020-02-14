@@ -9,7 +9,7 @@ This repository provides source control for commonly updated configuration files
 > **Composite Manager:** Compton
 
 ### Example Screenshot
-![Desktop Screenshot](screenshots/02/13/2020.png)
+![Desktop Screenshot](/screenshots/02/13/2020.png)
 
 
 More information to come!

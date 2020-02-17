@@ -13,10 +13,12 @@
 
 # Wallpaper
 # exec --no-startup-id feh --bg-scale ~/Pictures/vaporwave.jpg
-exec --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers/*
+exec_always --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers/*
 
 # Compton
 exec --no-startup-id "compton -b --inactive-opacity .9 --active-opacity .95" 
+# Network Manager
+exec_always --no-startup-id nm-applet
 
 # Keybindings
 bindsym $mod+Shift+x exec --no-startup-id i3exit shutdown, mode "default"

@@ -17,11 +17,18 @@ exec_always --no-startup-id feh --bg-scale --randomize ~/Pictures/Wallpapers/*
 
 # Compton
 exec --no-startup-id "compton -b --inactive-opacity .9 --active-opacity .95" 
+
 # Network Manager
 exec_always --no-startup-id nm-applet
 
+# CopyQ clipboard manager
+exec_always --no-startup-id copyq
+for_window [class="copyq"] floating enable
+
 # Keybindings
 bindsym $mod+Shift+x exec --no-startup-id i3exit shutdown, mode "default"
+
+bindsym $mod+i exec --no-startup-id /opt/intelliJ/bin/idea.sh
 
 # END User Commands
 

@@ -1,6 +1,6 @@
-#Vim Cheatsheet
+# Vim Cheatsheet
 
-###Movement
+### Movement
 * **gg:** Beginning of document
 * **G:** End of document
 * **0:** Beginning of line
@@ -9,7 +9,7 @@
 * **^:** First non-whitespace character
 * **%:** Matching parenthesis
 
-###Editing
+### Editing
 * **v:** Enter visual mode
 * **i:** Insert before cursor
 * **a:** Insert after cursor
@@ -23,7 +23,7 @@
 * **>>:** Indent
 * **<<:** De-indent
 
-###Searching
+### Searching
 * **/pattern:** Search for pattern
 * **:%s/old/new/g:** Replace old with new
 * **n:** continue search forward
